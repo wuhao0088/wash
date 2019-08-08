@@ -6,6 +6,7 @@ C:\Users\Administrator\Desktop\wash-parent\wash-common\src\main\java\com\wash\co
 C:\Users\Administrator\Desktop\wash-parent\wash-common\src\main\java\com\wash\common\exception\ParamValidationException.java
 C:\Users\Administrator\Desktop\wash-parent\wash-common\src\main\java\com\wash\common\exception\ResourceNotFoundException.java
 C:\Users\Administrator\Desktop\wash-parent\wash-common\src\main\java\com\wash\common\exception\ServiceException.java
+C:\Users\Administrator\Desktop\wash-parent\wash-common\src\main\java\com\wash\common\util\UrlUtils.java
 C:\Users\Administrator\Desktop\wash-parent\wash-common\src\main\java\com\wash\common\handler\CustomExceptionHandler.java
 C:\Users\Administrator\Desktop\wash-parent\wash-common\src\main\java\com\wash\common\exception\SystemException.java
 C:\Users\Administrator\Desktop\wash-parent\wash-common\src\main\java\com\wash\common\exception\VersionValidationException.java

@@ -12,7 +12,7 @@ import java.util.Map;
 @NoArgsConstructor
 public class ShowContentCharge {
     Map<Long, List<WashMaintenanceDao>> showMap;
-    Map<Long, List<WashMaintenanceDao>> contentMap;
+    Map<Long, List<WashMaintenanceContentDao>> contentMap;
     Map<Long, List<WashCharge>> chargeMap;
 
     public Map<Long, List<WashMaintenanceDao>> getShowMap() {
@@ -23,11 +23,11 @@ public class ShowContentCharge {
         this.showMap = showMap;
     }
 
-    public Map<Long, List<WashMaintenanceDao>> getContentMap() {
+    public Map<Long, List<WashMaintenanceContentDao>> getContentMap() {
         return contentMap;
     }
 
-    public void setContentMap(Map<Long, List<WashMaintenanceDao>> contentMap) {
+    public void setContentMap(Map<Long, List<WashMaintenanceContentDao>> contentMap) {
         this.contentMap = contentMap;
     }
 

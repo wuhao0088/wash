@@ -1,11 +1,12 @@
 package com.wash.serviceImpl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.wash.domain.*;
+import com.wash.domain.WashCharge;
+import com.wash.domain.WashMaintenanceContentDao;
+import com.wash.domain.WashMaintenanceDao;
 import com.wash.mapper.WashChargeMapper;
 import com.wash.mapper.WashContentMapper;
 import com.wash.mapper.WashDescriptionMapper;
-import com.wash.mapper.WashDetailsMapper;
 import com.wash.service.WashMaintenanceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import tk.mybatis.mapper.entity.Example;
@@ -26,7 +27,7 @@ public class WashMaintenanceServiceImpl implements WashMaintenanceService {
         return washDescriptionMapper.selectDescriptions(DetailsId);
     }
     @Override
-    public List<WashMaintenanceDao> getWashContent(Long DetailsId) {
+    public List<WashMaintenanceContentDao> getWashContent(Long DetailsId) {
         return washContentMapper.queryWashMaintenanceContent(DetailsId);
     }
 
